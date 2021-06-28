@@ -18,14 +18,6 @@
 */
 -->
 <resources>
-    <!-- IDs for each color mode. The values must match the corresponding constants in
-         android.view.Display -->
-    <integer-array name="color_mode_ids">
-        <item>0</item>
-        <item>-1</item>
-        <item>-1</item>
-    </integer-array>
-
     <!-- Torch Power button gestures -->
     <string-array name="torch_power_button_gesture_entries">
         <item>@string/torch_power_button_gesture_none</item>
