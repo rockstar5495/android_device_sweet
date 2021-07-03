@@ -196,3 +196,12 @@ PRODUCT_PACKAGES += \
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
+
+# Board
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_BOARD_PLATFORM := msm8996
+
+# Hacks
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
