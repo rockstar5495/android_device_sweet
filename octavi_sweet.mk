@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit some common OctaviOS stuff.
 $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
+# Inherit GApps  package
+$(call inherit-product, vendor/gapps/gapps.mk)
+
 # Octavi Stuff
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINATINER := Pratyaksh.Bharadwaj
