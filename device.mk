@@ -193,10 +193,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     GCam
 
-# Prebuilts
-PRODUCT_PACKAGES += \
-    Sounds
-
 # Remove Packages
 PRODUCT_PACKAGES += \
     RemovePackages
