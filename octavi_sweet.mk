@@ -12,7 +12,7 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
 # Octavi Stuff
 OCTAVI_BUILD_TYPE := Official
-OCTAVI_BUILD_MAINATINER := Pratyaksh.Bharadwaj
+OCTAVI_DEVICE_MAINATINER := Pratyaksh.Bharadwaj
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_GAPPS_ARCH := arm64
